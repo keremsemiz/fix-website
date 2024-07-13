@@ -1,0 +1,263 @@
+.desktop-7 .ellipse-11 {
+  filter: blur(63.2px);
+  position: absolute;
+  left: -274px;
+  top: 738px;
+  width: 430px;
+  height: 421px;
+}
+.desktop-7 .logo {
+  margin: 0 42.5px 4.5px 0;
+  width: 208px;
+  overflow-wrap: break-word;
+  font-family: 'Big Shoulders Stencil Text';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #FFB933;
+}
+.logo-sub51 {
+  font-family: 'Big Shoulders Stencil Text';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.333;
+}
+.logo-sub52 {
+  font-family: 'Big Shoulders Stencil Text';
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.333;
+}
+.logo {
+  font-family: 'Big Shoulders Stencil Text';
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.333;
+}
+.desktop-7 .sign-in {
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: #010005;
+}
+.desktop-7 .sign-in-button {
+  border-radius: 12px;
+  background: #FFB933;
+  position: relative;
+  margin-top: 29.5px;
+  display: flex;
+  padding: 18px 1.3px 18px 0;
+  width: 150px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-7 .container-2 {
+  margin-right: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1385px;
+  box-sizing: border-box;
+}
+.desktop-7 .order-food-the-easy-way {
+  margin-bottom: 19px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Noto Serif';
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 1;
+  color: #FFB933;
+}
+.desktop-7 .run-by-students-for-the-nelson-mandela-school-community-our-easy-to-use-platform-brings-you-afresh-and-convenient-way-to-order-your-favorite-cafeteria-meals {
+  margin: 0 15.8px 19px 7px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.desktop-7 .order-food {
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: #010005;
+  text-align: center; /* Optional: Center text within the element */
+  max-width: 100%; /* Optional: Ensure it doesn't exceed its container's width */
+}
+.desktop-7 .order-button {
+  border-radius: 12px;
+  background: #FFB933;
+  position: relative;
+  margin: 0 7px;
+  display: flex;
+  align-self: flex-start;
+  padding: 18px 0.7px 18px 0;
+  width: 163px;
+  box-sizing: border-box;
+}
+.desktop-7 .container-3 {
+  margin: 53px 17.8px 0 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-7 .image-3 {
+  background: url('../assets/images/image_3.png') 50% / cover no-repeat;
+  width: 430px;
+  height: 430px;
+}
+.desktop-7 .hero {
+  margin: 0 2px 75px 0;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-7 .about-us {
+  margin-bottom: 19px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Noto Serif';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  color: #FFB933;
+}
+.desktop-7 .this-unofficial-tool-is-designed-to-simplify-ordering-meals-at-the-nelson-mandela-school-cafeteria-created-by-vibbodh-somani-our-goal-is-to-enhance-your-dining-experience-with-ease-and-convenience-we-hope-you-find-this-website-to-be-agame-changer-in-your-daily-routine {
+  margin-bottom: 41px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.desktop-7 .contact-us {
+  margin-bottom: 19px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Noto Serif';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  color: #FFB933;
+}
+.desktop-7 .if-you-have-suggestions-for-new-features-or-improvements-please-feel-free-to-contact-me-in-person-or-via-email-our-goal-is-to-eliminate-the-long-cafeteria-lines-and-enhance-your-dining-experience-we-welcome-your-ideas-and-feedback {
+  margin-bottom: 12px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.desktop-7 .somanivibbodhgmail-com {
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #010005;
+}
+.desktop-7 .container-1 {
+  border-radius: 12px;
+  border: 2px solid #000000;
+  background: #FDB733;
+  position: relative;
+  display: flex;
+  padding: 16px 5.9px 15px 5.9px;
+  box-sizing: border-box;
+}
+.desktop-7 .image-1 {
+  background: url('../assets/images/image_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 11px;
+  bottom: 0px;
+  width: 46px;
+  height: 46px;
+}
+.desktop-7 .email-button {
+  position: relative;
+  margin-right: 10px;
+  padding-top: 1px;
+  width: 224px;
+  box-sizing: border-box;
+}
+.desktop-7 .icon {
+  width: 31.7px;
+  height: 30.7px;
+}
+.desktop-7 .github {
+  margin-right: 14.1px;
+  display: flex;
+  width: 39px;
+  height: 35px;
+  box-sizing: border-box;
+}
+.desktop-7 .iambodha {
+  margin: 9.6px 0 7.1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Fira Sans Extra Condensed';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #010005;
+}
+.desktop-7 .github-button {
+  border-radius: 12px;
+  border: 2px solid #000000;
+  background: #FDB733;
+  position: relative;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  padding: 7.4px 16px 6.9px 9.3px;
+  box-sizing: border-box;
+}
+.desktop-7 .container-4 {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-7 .group-2 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-7 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.desktop-7 .ellipse-1 {
+  filter: blur(63.2px);
+  position: absolute;
+  top: 144px;
+  right: -321px;
+  width: 553px;
+  height: 541px;
+}
+.desktop-7 {
+  background: #010005;
+  display: flex;
+  padding: 8.5px 19px 14px 18px;
+  width: 1440px;
+  box-sizing: border-box;
+}
