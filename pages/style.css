@@ -1,205 +1,276 @@
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .main-container {
-  background: #010005;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding-bottom: 1.9rem;
-  box-sizing: border-box;
-  position: relative;
+    background: #f5f5dc; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.9rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main-content {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  gap: 122rem;
-  width: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    gap: 122rem;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 .sign-in-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .sign-in {
-  border-radius: 1rem;
-  width: 10rem;
-  background: #FFB933;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  box-sizing: border-box;
+    border-radius: 1rem;
+    width: 10rem;
+    background: #ff6347; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .title-holder {
-  border-radius: 1rem;
-  width: auto;
-  background: #FFB933;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  width: 15rem;
-  box-sizing: border-box;
+    border-radius: 1rem;
+    width: auto;
+    background: #ff6347; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 15rem;
+    box-sizing: border-box;
 }
 
 .title-holder-text {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: #010005;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff; 
 }
 
 .sign-in-text {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: #010005;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff; 
 }
 
 .hero-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 2rem;
-  box-sizing: border-box;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
-  margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
 }
 
 .hero-title {
-  font-family: 'Noto Serif', serif;
-  font-size: 3rem;
-  color: #FFB933;
-  margin-bottom: 1rem;
+    font-family: 'Lato';
+    font-size: 3rem;
+    color: #ff6347; 
+    margin-bottom: 1rem;
 }
 
 .hero-description {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  margin-bottom: 2rem;
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    color: #333333; 
+    margin-bottom: 2rem;
 }
 
 .order-button {
-  border-radius: 12px;
-  background: #FFB933;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  cursor: pointer;
+    border-radius: 12px;
+    background: #ff6347; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .order-button-text {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.5rem;
-  color: #010005;
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    color: #ffffff; 
 }
 
 .hero-image {
-  background: url('../assets/images/image_3.png') center / cover no-repeat;
-  width: 430px;
-  height: 430px;
-  z-index: 2;
+    background: url('../assets/images/image_3.png') center / cover no-repeat;
+    width: 430px;
+    height: 430px;
+    z-index: 2;
 }
 
 .about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem;
-  box-sizing: border-box;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .about-title,
 .contact-title {
-  font-family: 'Noto Serif', serif;
-  font-size: 2.5rem;
-  color: #FFB933;
-  margin-bottom: 1rem;
+    font-family: 'Lato';
+    font-size: 2.5rem;
+    color: #ff6347; 
+    margin-bottom: 1rem;
 }
 
 .about-description,
 .contact-description {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  margin-bottom: 2rem;
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    color: #333333; 
+    margin-bottom: 2rem;
 }
 
 .contact-buttons {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .email-button,
 .github-button {
-  display: flex;
-  align-items: center;
-  border-radius: 12px;
-  border: 2px solid #000000;
-  background: #FDB733;
-  padding: 1rem;
-  margin-right: 1rem;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    background: #ffd700; 
+    padding: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
 }
 
 .email-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .email-text {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1rem;
-  color: #010005;
+    font-family: 'Lato';
+    font-size: 1rem;
+    color: #000000;
 }
 
 .email-icon {
-  background: url('../assets/images/image_1.png') center / cover no-repeat;
-  width: 46px;
-  height: 46px;
-  margin-left: 1rem;
+    background: url('../assets/images/image_1.png') center / cover no-repeat;
+    width: 46px;
+    height: 46px;
+    margin-left: 1rem;
 }
 
 .github-icon {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 .icon-image {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .github-text {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1rem;
-  color: #010005;
+    font-family: 'Lato';
+    font-size: 1rem;
+    color: #000000;
 }
 
 .background-ellipse {
-  filter: blur(63.2px);
-  position: absolute;
-  top: 200px;
-  right: 275px;
-  z-index: 1;
-  width: 553px;
-  height: 541px;
+    filter: blur(63.2px);
+    position: absolute;
+    top: 140px;
+    right: 320px;
+    z-index: 1;
+    width: 553px;
+    height: 541px;
+    background-color: rgba(255, 165, 0, 0.5);
+    border-radius: 6rem;
+}
+
+.footer {
+    border-top: #3F4145 solid 2px;
+    background-color: #f5f5dc; 
+    color: #333333;
+    padding: 2rem 5rem;
+    font-size: 1.2rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 5rem;
+}
+
+.contact-info {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-text span {
+    display: block;
+}
+
+.about-company h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-company p {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    color: #333333;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ff6347;
 }
