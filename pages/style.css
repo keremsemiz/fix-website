@@ -119,7 +119,7 @@ body {
 }
 
 .hero-image {
-    background: url('../assets/images/image_3.png') center / cover no-repeat;
+    background: url('../assets/images/spaghetti.png') center / cover no-repeat;
     width: 430px;
     height: 430px;
     z-index: 2;
@@ -134,7 +134,29 @@ body {
     width: 100%;
 }
 
-.about-title,
+.about-title {
+    font-family: 'Lato';
+    font-size: 2.5rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+.about-description {
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 2rem;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 .contact-title {
     font-family: 'Lato';
     font-size: 2.5rem;
@@ -142,12 +164,12 @@ body {
     margin-bottom: 1rem;
 }
 
-.about-description,
 .contact-description {
     font-family: 'Lato';
     font-size: 1.5rem;
     color: #333333;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .contact-buttons {
@@ -172,6 +194,24 @@ body {
     cursor: pointer;
 }
 
+.sign-in, .order-button, .email-button, .github-button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.sign-in:hover, .order-button:hover, .email-button:hover, .github-button:hover {
+    background-color: #ff8566;
+    transform: translateY(-2px);
+}
+
+.sign-in:focus, .order-button:focus, .email-button:focus, .github-button:focus {
+    background-color: #ff8566;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5);
+}
+
+#mailIcon:hover, #mailIcon:focus, #githubIcon:hover, #githubIcon:focus {
+    color: #ff6347;
+}
 
 .email-container {
     display: flex;
@@ -184,26 +224,16 @@ body {
     color: #000000;
 }
 
-.email-icon {
-    background: url('../assets/images/image_1.png') center / cover no-repeat;
-    width: 46px;
-    height: 46px;
-    margin-left: 1rem;
+#mailIcon {
+    font-size: 2rem;
+    color: #1E1E1E;
+    margin-left: .7rem;
 }
 
-.github-icon {
-    margin-right: 1rem;
-}
-
-.icon-image {
-    width: 32px;
-    height: 32px;
-}
-
-.github-text {
-    font-family: 'Lato';
-    font-size: 1rem;
-    color: #000000;
+#githubIcon {
+    font-size: 2rem;
+    color: #1E1E1E;
+    margin-right: .7rem;
 }
 
 .how-it-works-section {
@@ -261,6 +291,66 @@ body {
 }
 
 .how-it-works-description {
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.features-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.features-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.features-image-left {
+    flex: 1;
+    height: 300px;
+    background: url('../assets/images/feature1.jpg') center / cover no-repeat;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.features-image-right {
+    flex: 1;
+    height: 300px;
+    background: url('../assets/images/feature2.jpg') center / cover no-repeat;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.features-text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.features-title {
+    font-family: 'Lato';
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+.features-description {
     font-family: 'Lato';
     font-size: 1.5rem;
     color: #333333;
@@ -330,12 +420,12 @@ body {
     margin-right: 10px;
     font-size: 24px;
     text-decoration: none;
+    transition: 0.4s ease all;
 }
 
 .social-media a:hover {
     color: #ff6347;
 }
-
 
 @media (max-width: 1200px) {
     .hero-title {
@@ -349,11 +439,13 @@ body {
         font-size: 1.25rem;
     }
 
-    .how-it-works-title {
+    .how-it-works-title,
+    .features-title {
         font-size: 1.75rem;
     }
 
-    .how-it-works-description {
+    .how-it-works-description,
+    .features-description {
         font-size: 1.25rem;
     }
 
@@ -375,21 +467,26 @@ body {
     }
 
     .about-section,
-    .how-it-works-section {
+    .how-it-works-section,
+    .features-section {
         padding: 1rem;
     }
 
-    .how-it-works-content {
+    .how-it-works-content,
+    .features-content {
         flex-direction: column;
     }
 
-    .how-it-works-item {
+    .how-it-works-item,
+    .features-item {
         flex-direction: column;
         text-align: center;
     }
 
     .how-it-works-image-left,
-    .how-it-works-image-right {
+    .how-it-works-image-right,
+    .features-image-left,
+    .features-image-right {
         width: 80%;
         height: 200px;
         margin: 1rem auto;
@@ -415,7 +512,7 @@ body {
         gap: 2rem;
     }
 
-    .title-holder{
+    .title-holder {
         width: 12rem;
     }
 
@@ -432,11 +529,13 @@ body {
         text-align: center;
     }
 
-    .how-it-works-title {
+    .how-it-works-title,
+    .features-title {
         font-size: 1.5rem;
     }
 
-    .how-it-works-description {
+    .how-it-works-description,
+    .features-description {
         font-size: 1rem;
         text-align: center;
     }
@@ -477,11 +576,13 @@ body {
         text-align: center;
     }
 
-    .how-it-works-title {
+    .how-it-works-title,
+    .features-title {
         font-size: 1.25rem;
     }
 
-    .how-it-works-description {
+    .how-it-works-description,
+    .features-description {
         font-size: 1.2rem;
         text-align: center;
     }
@@ -490,7 +591,7 @@ body {
         padding: 1rem;
     }
 
-    .hero{
+    .hero {
         display: flex;
         flex-direction: row;
     }
@@ -515,10 +616,10 @@ body {
         align-items: center;
         width: 100%;
         max-width: 400px;
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-bottom: 2rem;
     }
-    
+
     .email-button,
     .github-button {
         width: 100%;
