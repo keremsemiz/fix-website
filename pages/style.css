@@ -427,6 +427,9 @@ body {
     color: #ff6347;
 }
 
+
+/* you need media queries for responsiveness bozo */
+
 @media (max-width: 1200px) {
     .hero-title {
         font-size: 2.5rem;
